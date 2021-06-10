@@ -36,7 +36,7 @@ class ClaseLista():
 
             idx_ordered = np.argsort(self.claves)
             self.claves = self.claves[idx_ordered]
-            self.elementos = self.elementos[idx_ordered]
+            self.elementos = self.elementos
     
     def delete(self, x):
         if self.find(x):
